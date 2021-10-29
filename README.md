@@ -1,2 +1,2 @@
-# fimuko.github.io
-site
+# fimuko
+blog
