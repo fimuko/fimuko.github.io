@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: contact
 tagline: Create a contact form and you are good to go
 ref: contact
 order: 1
