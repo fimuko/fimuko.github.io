@@ -6,5 +6,3 @@ permalink: /blog.html
 ref: blog
 order: 3
 ---
-
-all posts

@@ -27,4 +27,5 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['blog', 'about', 'now', 'contact']
+#header_page_refs: ['blog', 'about', 'now', 'contact']
+header_page_refs: ['blog', 'about']
