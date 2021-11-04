@@ -58,10 +58,8 @@
         {% if page.layout == 'page' %}
         {% assign page-tagline = page.tagline | escape %}
         {% endif %}
-        {% if page.layout == 'post' %}
-        {% assign page-tagline = page.tagline | escape  %}
-        {% endif %}
-        {% if page.layout == 'all_posts' %}
+        <!-- {% if page.layout == 'post' %} -->
+        {% if page.layout == 'post' or page.layout == 'all_posts'%}
         {% assign page-tagline = page.tagline | escape  %}
         {% endif %}
         
@@ -76,8 +74,8 @@
             {% endif %}
             {% endif %}
             <!-- Post tagline -->
-            {% if page.layout == 'post' %}
-            <!-- {% if page.layout == 'post' or page.layout == 'all_posts' %} -->
+            <!-- {% if page.layout == 'post' %} -->
+            {% if page.layout == 'post' or page.layout == 'all_posts' %}
             <h2 class="project-date">
                 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                     {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
