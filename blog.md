@@ -1,8 +1,8 @@
 ---
 layout: all_posts
 title: blog
-tagline: all posts
+tagline: list of all the posts
 permalink: /blog.html
 ref: blog
-order: 3
+order: 0
 ---
