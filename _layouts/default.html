@@ -60,7 +60,7 @@
         {% if page.layout == 'page' %}
         {% assign page-tagline = page.tagline | escape %}
         {% endif %}
-        {% if page.layout == 'post' %}
+        {% if page.layout == 'post' or page.layout == 'all_posts' %}
         {% assign page-tagline = page.tagline | escape  %}
         {% endif %}
         
