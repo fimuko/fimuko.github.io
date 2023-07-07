@@ -1,5 +1,5 @@
 languageCode: en-us
-baseURL: "https://examplesite.com/"
+baseURL: "https://fimuko.github.io/"
 title: fimuko's blog
 paginate: 5
 theme: PaperMod
