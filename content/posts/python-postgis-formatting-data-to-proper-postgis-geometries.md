@@ -11,7 +11,7 @@ summary: "Parsing geometries for Post GIS with Python" # this shows up on the li
 description: "Parsing geometries for Post GIS with Python" # this shows up on the single page
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 #canonicalURL: "https://canonical.url/to/page"
