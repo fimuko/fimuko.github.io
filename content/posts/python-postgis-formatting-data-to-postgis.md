@@ -1,14 +1,14 @@
 ---
 title: "Parsing geometries for Post GIS with Python"
-date: 2023-07-15T14:00:00+02:00
+date: 2023-06-15T13:57:48+02:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["python", "postgres", "postgis"]
 categories: ["analytics", "data engineering"]
 author: "me"
 # author: ["Me", "You"] # multiple authors
-summary: "Parsing geometries for Post GIS with Python" # this shows up on the list
-description: "Parsing geometries for Post GIS with Python" # this shows up on the single page
+summary: "Custom data pre-process so that geometries in postgis can be used" # this shows up on the list
+description: "Custom data pre-process so that geometries in postgis can be used" # this shows up on the single page
 showToc: true
 TocOpen: false
 draft: false
