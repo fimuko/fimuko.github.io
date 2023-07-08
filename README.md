@@ -86,7 +86,7 @@ Building locally with `hugo` (to `public` folder) is not necessary, because we a
 
 
 ## TODO:
-- [ ] search does not seem to work
+- [X] search does not seem to work > solved when removed cache
     - https://github.com/adityatelange/hugo-PaperMod/discussions/1258
     - solutions? look here:
         - theme's github issues: https://github.com/adityatelange/hugo-PaperMod/issues?q=is%3Aissue+search
@@ -97,6 +97,6 @@ Building locally with `hugo` (to `public` folder) is not necessary, because we a
         - https://discord.com/channels/971046860317921340/1008546760156790815 and this persons site: https://github.com/PlanterApp/planter_blog/tree/main
         - 
 - [ ] table of contents seems to start from h2 and does not include h1
-- [ ] tags and categories counts include posts in draft state
+- [X] tags and categories counts include posts in draft state > solved when removed cache
 - [ ] mermaid does not work
 - [ ] enable comments with giscus

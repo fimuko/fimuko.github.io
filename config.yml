@@ -62,7 +62,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: sqeezing data & having fun
-    subtitle: "personal blog on anything related to extracting knowledge from data: devops, cloud technologies, analytics, data engineering, data pre-processing and enrichment, ML..."
+    subtitle: "personal blog on anything related to extracting knowledge from data: devops, cloud technologies, analytics, data engineering, data pre-processing and enrichment, ML ..."
     imageUrl: "home/my_pic.jpg"
     imageWidth: 140
     imageHeight: 140
