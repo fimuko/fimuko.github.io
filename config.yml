@@ -53,7 +53,8 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "ツ fimuko"
+    #text: "ツ fimuko"
+    text: "フィムコ"
     icon: /apple-touch-icon.png
     iconHeight: 35
 

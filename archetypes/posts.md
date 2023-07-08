@@ -7,8 +7,8 @@ tags: ["generic tag"]
 categories: ["analytics", "devops", "ML"]
 author: "me"
 # author: ["Me", "You"] # multiple authors
-summary: "this is a summary of the post"
-description: "this is a description of the post"
+summary: "this is a summary of the post" # this shows up on the list
+description: "this is a description of the post" # this shows up on the single page
 showToc: true
 TocOpen: false
 draft: true

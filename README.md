@@ -1,5 +1,7 @@
 # My personal portfolio / blog
 
+フィムコ
+
 Built with Hugo static sites generator, and PaperMod theme.
 ## Installation steps
 
@@ -95,4 +97,6 @@ Building locally with `hugo` (to `public` folder) is not necessary, because we a
         - https://discord.com/channels/971046860317921340/1008546760156790815 and this persons site: https://github.com/PlanterApp/planter_blog/tree/main
         - 
 - [ ] table of contents seems to start from h2 and does not include h1
+- [ ] tags and categories counts include posts in draft state
+- [ ] mermaid does not work
 - [ ] enable comments with giscus
