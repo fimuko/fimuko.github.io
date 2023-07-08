@@ -99,4 +99,11 @@ Building locally with `hugo` (to `public` folder) is not necessary, because we a
 - [X] table of contents seems to start from h2 and does not include h1 > solved with setting UseHugoToc to false
 - [X] tags and categories counts include posts in draft state > solved when removed cache
 - [ ] mermaid does not work
+    - not much in webpage wiki
+    - github issues / discussions:
+        - https://github.com/adityatelange/hugo-PaperMod/discussions/763
+        - https://github.com/adityatelange/hugo-PaperMod/discussions/850
+        - https://github.com/bee-san/hugo-PaperMod/commit/c5c9ffc3006f5fb499b2a8c66b94bdd3800433eb
+        - https://github.com/adityatelange/hugo-PaperMod/discussions/853
+
 - [ ] enable comments with giscus
