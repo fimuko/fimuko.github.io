@@ -3,8 +3,8 @@ title: "Local emulation of working with Azure Event Grid"
 date: 2023-06-08T12:55:17+02:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["azure function"]
-categories: ["devops", "azure"]
+tags: ["azure function", "python"]
+categories: ["devops"]
 author: "me"
 # author: ["Me", "You"] # multiple authors
 summary: "Tips on how to work with Azure Event Grid when developing locally"
