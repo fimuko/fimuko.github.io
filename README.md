@@ -34,7 +34,11 @@ rm hugo.tml
 ```
 and replaced it with the `config.yml` from [here](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-configyml)
 
-Or you can copy the [`config.yml` file](https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/config.yml) of the [theme's example site](https://adityatelange.github.io/hugo-PaperMod/).
+OR you can copy the [`config.yml` file](https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/config.yml) of the [theme's example site](https://adityatelange.github.io/hugo-PaperMod/).
+
+```bash
+curl https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/exampleSite/config.yml -o config.yml
+```
 
 6. Created `archetypes/posts.md` with the content from [here](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-pagemd)
 
