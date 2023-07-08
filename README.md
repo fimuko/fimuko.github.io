@@ -98,8 +98,8 @@ Building locally with `hugo` (to `public` folder) is not necessary, because we a
         - 
 - [X] table of contents seems to start from h2 and does not include h1 > solved with setting UseHugoToc to false
 - [X] tags and categories counts include posts in draft state > solved when removed cache
-- [>] mermaid does not work > solved it like here https://www.bodunhu.com/blog/posts/add-mermaid-to-hugo-with-dark-mode/ (not ideal as i will have to switch from code blocks to shorcode)
-    - https://gohugo.io/content-management/diagrams/#mermaid-diagrams
+- [x] mermaid does not work > solved it like here https://www.bodunhu.com/blog/posts/add-mermaid-to-hugo-with-dark-mode/ (not ideal as i will have to switch from code blocks to shorcode)
+    - https://gohugo.io/content-management/diagrams/#mermaid-diagrams > solving it like here in fact
     - not much in webpage wiki
     - github issues / discussions:
         - https://github.com/adityatelange/hugo-PaperMod/discussions/763 , https://github.com/binick/binick.github.io/tree/main/src , code he allegedly added: https://github.com/search?q=repo%3Abinick%2Fbinick.github.io+mermaid&type=code

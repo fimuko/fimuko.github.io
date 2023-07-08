@@ -58,8 +58,6 @@ flowchart LR
     s3id1["Function App"]
     end
 ```
-<!-- {{<mermaid>}} -->
-<!-- {{</mermaid>}} -->
 
 Today we are going to implement the above flow locally, although not fully, as there are certain constraints to what we are able to do locally.
 
