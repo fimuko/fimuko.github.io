@@ -87,6 +87,8 @@ params:
     #   url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/fimuko"
+    - name: linkedin
+      url: "https://linked.in"
 
   analytics:
     google:
