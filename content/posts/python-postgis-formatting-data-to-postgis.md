@@ -7,8 +7,8 @@ tags: ["python", "postgres", "postgis"]
 categories: ["analytics", "data engineering"]
 author: "me"
 # author: ["Me", "You"] # multiple authors
-summary: "Custom data pre-process so that geometries in postgis can be used" # this shows up on the list
-description: "Custom data pre-process so that geometries in postgis can be used" # this shows up on the single page
+summary: "Custom data pre-processing so that geometries in postgis can be used" # this shows up on the list
+description: "Custom data pre-processing so that geometries in postgis can be used" # this shows up on the single page
 showToc: true
 TocOpen: false
 draft: false
@@ -25,7 +25,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
+UseHugoToc: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text

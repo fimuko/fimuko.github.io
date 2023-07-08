@@ -25,7 +25,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
+UseHugoToc: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text

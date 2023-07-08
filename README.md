@@ -96,7 +96,7 @@ Building locally with `hugo` (to `public` folder) is not necessary, because we a
         - https://github.com/adityatelange/hugo-PaperMod/discussions/1175
         - https://discord.com/channels/971046860317921340/1008546760156790815 and this persons site: https://github.com/PlanterApp/planter_blog/tree/main
         - 
-- [ ] table of contents seems to start from h2 and does not include h1
+- [X] table of contents seems to start from h2 and does not include h1 > solved with setting UseHugoToc to false
 - [X] tags and categories counts include posts in draft state > solved when removed cache
 - [ ] mermaid does not work
 - [ ] enable comments with giscus

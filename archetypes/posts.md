@@ -4,7 +4,7 @@ date: {{ .Date }}
 # weight: 1
 # aliases: ["/first"]
 tags: ["generic tag"]
-categories: ["analytics", "devops", "ML"]
+categories: ["analytics", "devops", "data engineering", "ML"]
 author: "me"
 # author: ["Me", "You"] # multiple authors
 summary: "this is a summary of the post" # this shows up on the list
@@ -25,7 +25,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
+UseHugoToc: false # keep this false as if true it is not showing H1
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text

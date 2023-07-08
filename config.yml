@@ -34,7 +34,7 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
+  UseHugoToc: false # keep this false as if true it is not showing H1
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
