@@ -40,7 +40,8 @@ cover:
 
 Azure Event Grid events are actually POST https requests sent to the url of subscription. The worklow involving Azure Event Grid is as follows:
 
-{{<mermaid>}}
+
+```mermaid
 flowchart LR
     s1id1-->s2id1
     s2id1-->s2id2
@@ -56,7 +57,9 @@ flowchart LR
     subgraph s3["Event Handler"]
     s3id1["Function App"]
     end
-{{</mermaid>}}
+```
+<!-- {{<mermaid>}} -->
+<!-- {{</mermaid>}} -->
 
 Today we are going to implement the above flow locally, although not fully, as there are certain constraints to what we are able to do locally.
 
