@@ -11,7 +11,7 @@ summary: "this is a summary of the post"
 description: "this is a description of the post"
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 #canonicalURL: "https://canonical.url/to/page"
@@ -19,7 +19,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true

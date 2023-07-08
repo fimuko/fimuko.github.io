@@ -85,7 +85,11 @@ Building locally with `hugo` (to `public` folder) is not necessary, because we a
 
 ## TODO:
 - [ ] search does not seem to work
+    - https://github.com/adityatelange/hugo-PaperMod/discussions/1258
     - solutions? look here:
+        - theme's github issues: https://github.com/adityatelange/hugo-PaperMod/issues?q=is%3Aissue+search
+            - https://github.com/adityatelange/hugo-PaperMod/discussions/731
+            - https://github.com/adityatelange/hugo-PaperMod/issues/556
         - example site code https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/
         - https://github.com/adityatelange/hugo-PaperMod/discussions/1175
         - https://discord.com/channels/971046860317921340/1008546760156790815 and this persons site: https://github.com/PlanterApp/planter_blog/tree/main
