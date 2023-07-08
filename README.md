@@ -85,5 +85,10 @@ Building locally with `hugo` (to `public` folder) is not necessary, because we a
 
 ## TODO:
 - [ ] search does not seem to work
+    - solutions? look here:
+        - example site code https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/
+        - https://github.com/adityatelange/hugo-PaperMod/discussions/1175
+        - https://discord.com/channels/971046860317921340/1008546760156790815 and this persons site: https://github.com/PlanterApp/planter_blog/tree/main
+        - 
 - [ ] table of contents seems to start from h2 and does not include h1
 - [ ] enable comments with giscus
