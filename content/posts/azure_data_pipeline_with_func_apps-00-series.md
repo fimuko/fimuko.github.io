@@ -42,7 +42,7 @@ This blog post series (Azire data pipeline with Azure Function Apps) covers the 
 
 1. [Introduction of the project](/posts/azure_data_pipeline_with_func_apps-01-introduction/)
 2. [Choice of tech stack](/posts/azure_data_pipeline_with_func_apps-02-choice_of_tech_stack)
-3. [TODO: Structure of the git repository (+ reference projects?) + az and azd explained](/posts/)
+3. [Structure of the git repository](/posts/azure_data_pipeline_with_func_apps-03-repo_structure/)
 4. [TODO: Developing IaC part of the data pipeline + security considerations?](/posts/)
 5. [TODO: Initial set-up of SQL](/posts/)
 6. [TODO: developing application logic - step 1 of the workflow](/posts/)

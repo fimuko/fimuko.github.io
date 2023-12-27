@@ -5,7 +5,7 @@ date: 2023-07-08T13:55:20+02:00
 # aliases: ["/first"]
 tags: ["generic tag"]
 categories: ["analytics", "devops", "ML"]
-author: "me"
+author: "fimuko"
 # author: ["Me", "You"] # multiple authors
 summary: "this is a summary of the post" # this shows up on the list
 description: "this is a description of the post" # this shows up on the single page
