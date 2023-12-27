@@ -5,7 +5,7 @@ date: {{ .Date }}
 # aliases: ["/first"]
 tags: ["generic tag"]
 categories: ["analytics", "devops", "data engineering", "ML"]
-author: "me"
+author: "fimuko"
 # author: ["Me", "You"] # multiple authors
 summary: "this is a summary of the post" # this shows up on the list
 description: "this is a description of the post" # this shows up on the single page

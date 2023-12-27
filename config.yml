@@ -20,7 +20,7 @@ params:
   title: fimuko's blog
   description: "personal blog on anything related to extracting knowledge from data: devops, cloud technologies, analytics, data engineering, data pre-processing and enrichment, ML..."
   keywords: [Blog, Portfolio, Data Science, Machine Learning, Data Engineering, Analytics]
-  author: Me
+  author: fimuko
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   # DateFormat: "%Y-%m-%d"
