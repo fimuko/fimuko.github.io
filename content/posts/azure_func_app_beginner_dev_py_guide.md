@@ -93,11 +93,11 @@ python -m pip install --upgrade pip
 The `func init` command created the following structure within the project folder:
 
 ```txt
-├── .venv     
+├── .venv/     
 │      ├── Lib\site-packages
 │      ├── Scripts
 │      └── pyvenv.cfg
-├── .vscode
+├── .vscode/
 ├── .funcignore
 ├── .gitignore
 ├── function_app.py
@@ -186,7 +186,24 @@ connection="BLOB_CONNECTION_STRING"
 ```
 The `connection` setting names an application setting that contains the connection string in your execution environment. Since our execution environment is local, the application settings are being defined within the `local.settings.json` file, so the `BLOB_CONNECTION_STRING` setting is taken from there.
 
+> **Note**: very often you will need to get the actual appsetting value into the code. To do that, you will have to do the following:
+>
+>```py
+>import os
+>secret_value = os.environ["myAppSetting"]
+>```
+> `myAppSetting` would have to be defined in the `local.settings.json` file.
+>
+> It can also be very interesting to test print all the environment variables. Try that with the following piece of code:
+>```py
+> # test print environment variables
+> app_settings = json.dumps(dict(os.environ), indent=4)
+> print(str(app_settings))
+>```
+
 The `path` setting in our case determins the name of the storage container that we want our function to monitor i.e. get notifications of events from. So make sure that within Azurite storage emulator, you create a storage container with the name of the value we provided in our sample code i.e. `mycontainer`.
+
+
 
 ## Simlating function locally
 
