@@ -83,6 +83,7 @@ Cold starts can affect the responsiveness of your function apps in a consumption
 Optimizing the performance of Azure Function Apps is crucial for delivering a seamless user experience and ensuring the efficient use of resources. Here's a deeper dive into some key strategies:
 
 - **Utilizing Multiple Worker Processes**: To enhance throughput and processing capabilities, consider deploying [multiple worker processes](https://learn.microsoft.com/en-us/azure/azure-functions/performance-reliability#use-multiple-worker-processes). This approach can significantly improve the ability of your Function App to handle concurrent requests, leading to faster response times and more robust handling of load spikes.
+Please note however, that multiple Python workers are not supported by the Python v2 programming model at this time. This means that enabling intelligent concurrency and setting `FUNCTIONS_WORKER_PROCESS_COUNT` greater than 1 is not supported for functions developed using the v2 model.
 
 - **Comprehensive Performance and Reliability Practices**: For a holistic approach to tuning your Function App, refer to these [comprehensive guidelines](https://learn.microsoft.com/en-us/azure/azure-functions/performance-reliability). They encompass best practices covering various aspects from code optimization to architectural decisions, ensuring both the reliability and efficiency of your application.
 
@@ -93,7 +94,6 @@ Optimizing the performance of Azure Function Apps is crucial for delivering a se
 - **Implementing Zone Redundancy**: To maximize availability and ensure continuous operation, consider applying [zone redundancy](https://learn.microsoft.com/en-us/azure/reliability/reliability-functions?toc=%2Fazure%2Fazure-functions%2FTOC.json&tabs=azure-portal). This feature allows your Function App to be replicated across multiple availability zones, protecting against zone-level failures and ensuring high availability.
 
 By addressing these areas, you can significantly enhance the performance and reliability of your Azure Function Apps, leading to a more robust and user-friendly application.
-
 
 ## Enhanced Error Handling Strategies
 
@@ -106,6 +106,10 @@ Robust error handling is not just a feature but a necessity for maintaining the 
 Avoiding host ID collisions in Azure Function Apps is crucial for ensuring smooth and conflict-free operation, particularly in environments with multiple functions and shared resources.
 
 - **Strategies to Prevent Host ID Collisions**: To effectively [avoid host ID collisions](https://learn.microsoft.com/en-us/azure/azure-functions/storage-considerations?tabs=azure-cli#avoiding-host-id-collisions), it's important to understand the underlying causes and implications of such conflicts. Host ID collisions can lead to issues like function overlap or misrouting of triggers and messages. Employing unique naming conventions and maintaining a well-organized resource hierarchy are practical steps to prevent these issues. Regular audits of resource configurations and adherence to best practices in resource management can further mitigate the risks of collisions, ensuring a more reliable and efficient Azure Function App environment.
+
+## Other references:
+
+- [Best practices for reliable Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-best-practices?tabs=csharp)
 
 ## Conclusion
 
