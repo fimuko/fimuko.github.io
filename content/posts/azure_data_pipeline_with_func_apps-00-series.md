@@ -38,7 +38,7 @@ cover:
 #     appendFilePath: true # to append file path to Edit link
 ---
 
-This blog post series (Azire data pipeline with Azure Function Apps) covers the following posts: 
+This blog post series (data pipeline with Azure Function Apps) covers the following posts: 
 
 1. [Introduction of the project](/posts/azure_data_pipeline_with_func_apps-01-introduction/)
 2. [Choice of tech stack](/posts/azure_data_pipeline_with_func_apps-02-choice_of_tech_stack)
