@@ -1,6 +1,6 @@
 ---
 title: "Hosting Azure Function Apps in Docker containers - a quick guide"
-date: 2023-05-28T14:37:54+01:00
+date: 2023-05-11T14:37:54+01:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["azure", "azure function", "python"]

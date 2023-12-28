@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Azure Function Apps in Python Using VSCode"
+title: "Getting Started with Azure Function Apps in Python using VSCode"
 date: 2023-04-02T09:15:35+01:00
 # weight: 1
 # aliases: ["/first"]
