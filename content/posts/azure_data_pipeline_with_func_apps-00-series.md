@@ -53,7 +53,6 @@ Other blog posts useful to also look at:
 - [Local emulation when working with Azure Event Grid](/posts/azure-local-event-grid-and-functions/)
 - [Getting Started with Azure Function Apps in Python Using VSCode](/posts/azure_func_app_beginners_guide/)
 - [Azure Function Apps in Python - guide to triggers](/posts/azure_func_app_py_triggers_guide/)
-- [COMMING SOON: Azure Function Apps: working with blobs](/posts/)
-- [COMMING SOON: Azure Function Apps: functions with container images](/posts/)
+- [Hosting Azure Function Apps in Docker containers - a quick guide](/posts/azure_func_app_with_docker_overview/)
 - [COMMING SOON: Azure Function Apps: considerations for production deployment](/posts/)
 
