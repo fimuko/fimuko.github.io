@@ -213,7 +213,7 @@ Please find the following resources useful when developing in Python in Azure Fu
 - [Azure Functions overview](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview?pivots=programming-language-python)
 - [Develop Azure Functions locally using Core Tools](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Cisolated-process%2Cnode-v4%2Cpython-v2%2Chttp-trigger%2Ccontainer-apps&pivots=programming-language-python)
 
-## Some advanced topics
+## Some other / advanced topics
 Listing here just a few notable examples useful to take into consideration further down the line when working with Azure Function Apps.
 
 ### Remote build on Azure
@@ -224,3 +224,7 @@ Monitor and troubleshoot your Function Apps by enabling diagnostics. [The Azure 
 
 ### Managing dependencies
 For advanced scenarios like deploying machine learning models, managing dependencies is key. See the [dependency management guide](https://learn.microsoft.com/en-us/azure/azure-functions/bring-dependency-to) for more details.
+
+### Mounting file shares
+
+Mounting file share for functions to use is useful when e.g. we have a pre-trained ML model that the function needs to use (see [here](https://learn.microsoft.com/en-us/azure/azure-functions/storage-considerations?tabs=azure-cli#mount-file-shares)).
