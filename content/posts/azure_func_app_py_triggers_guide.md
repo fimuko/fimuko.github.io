@@ -1,6 +1,6 @@
 ---
 title: "Azure Function Apps in Python - guide to triggers"
-date: 2023-05-10T12:37:18+01:00
+date: 2023-04-10T12:37:18+01:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["azure", "azure function", "python"]

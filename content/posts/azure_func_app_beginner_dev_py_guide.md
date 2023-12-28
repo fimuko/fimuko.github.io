@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Azure Function Apps in Python Using VSCode"
-date: 2023-05-02T09:15:35+01:00
+date: 2023-04-02T09:15:35+01:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["azure", "azure function", "python"]
