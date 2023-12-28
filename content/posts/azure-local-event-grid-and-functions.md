@@ -182,3 +182,9 @@ For detailed output, run func with --verbose flag.
 ```
 
 Our test event was succesfully processed by our function.
+
+## References:
+
+- [Tutorial: Trigger Azure Functions on blob containers using an event subscription](https://learn.microsoft.com/en-us/azure/azure-functions/functions-event-grid-blob-trigger?pivots=programming-language-python&tabs=isolated-process%2Cnodejs-v4)
+- [another tutorial](https://learn.microsoft.com/en-us/azure/azure-functions/event-grid-how-tos?tabs=v2%2Cportal#local-testing-with-viewer-web-app) where the http requests from cloud are manually resent to the local function
+- [Local Development with Azure Functions and Event Grid](https://mattruma.com/local-development-with-event-grid/)

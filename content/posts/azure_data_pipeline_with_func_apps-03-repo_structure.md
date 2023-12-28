@@ -42,7 +42,7 @@ Welcome to the third installment of our series on building data pipelines with A
 
 ## Repository structure: the debate
 
-In the realm of software development, particularly for data pipeline projects, there are primarily two approaches to structuring your project repositories: monorepo and multi-repo. 
+In the realm of software development, particularly for data pipeline projects, there are primarily two approaches to structuring your project repositories: monorepo and multi-repo. Both approaches may have certain pros and cons, as outline for example in [this blog post](https://www.hashicorp.com/blog/terraform-mono-repo-vs-multi-repo-the-great-debate) or in [this one](https://medium.com/flippengineering/coupling-in-microservices-part-2-single-vs-multi-repo-35c5d5f3057b).
 
 A **monorepo approach** involves keeping all your code - encompassing various services, applications, and infrastructure code - in a single, unified repository. This approach facilitates easier management of dependencies, streamlined workflows, and consistency in tooling and standards across different parts of the project. 
 

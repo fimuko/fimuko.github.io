@@ -52,7 +52,7 @@ This blog post series (Azire data pipeline with Azure Function Apps) covers the 
 Other blog posts useful to also look at:
 - [Local emulation when working with Azure Event Grid](/posts/azure-local-event-grid-and-functions/)
 - [Getting Started with Azure Function Apps in Python Using VSCode](/posts/azure_func_app_beginners_guide/)
-- [TODO: Azure Function Apps: different triggers explained](/posts/)
+- [Azure Function Apps in Python - guide to triggers](/posts/azure_func_app_py_triggers_guide/)
 - [TODO: Azure Function Apps: working with blobs](/posts/)
 - [TODO: Azure Function Apps: functions with container images](/posts/)
 - [TODO: Azure Function Apps: considerations for production deployment](/posts/)
