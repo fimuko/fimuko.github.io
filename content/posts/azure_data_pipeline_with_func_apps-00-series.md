@@ -43,7 +43,7 @@ This blog post series (Azire data pipeline with Azure Function Apps) covers the 
 1. [Introduction of the project](/posts/azure_data_pipeline_with_func_apps-01-introduction/)
 2. [Choice of tech stack](/posts/azure_data_pipeline_with_func_apps-02-choice_of_tech_stack)
 3. [Structure of the git repository](/posts/azure_data_pipeline_with_func_apps-03-repo_structure/)
-4. [TODO: Developing IaC part of the data pipeline + security considerations?](/posts/)
+4. [TODO: Developing IaC part of the data pipeline + security considerations? + reference projects?](/posts/)
 5. [TODO: Initial set-up of SQL](/posts/)
 6. [TODO: developing application logic - step 1 of the workflow](/posts/)
 7. [TODO: developing application logic - step 2 of the workflow](/posts/)
@@ -51,7 +51,7 @@ This blog post series (Azire data pipeline with Azure Function Apps) covers the 
 
 Other blog posts useful to also look at:
 - [Local emulation when working with Azure Event Grid](/posts/azure-local-event-grid-and-functions/)
-- [TODO: Azure function apps working with them locally, boilerplates etc](/posts/)
+- [Getting Started with Azure Function Apps in Python Using VSCode](/posts/azure_func_app_beginners_guide/)
 - [TODO: Azure Function Apps: different triggers explained](/posts/)
 - [TODO: Azure Function Apps: working with blobs](/posts/)
 - [TODO: Azure Function Apps: functions with container images](/posts/)
