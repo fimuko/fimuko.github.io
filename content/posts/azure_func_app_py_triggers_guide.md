@@ -144,6 +144,32 @@ def test_function(mytimer: func.TimerRequest) -> None:
     logging.info('Python timer trigger function ran at %s', utc_timestamp)
 ```
 
+We can also have multiple schedules in a single function app, however they need to be under separate event handling functions. Please see the example below:
+
+```py
+import logging
+import azure.functions as func
+
+app = func.FunctionApp()
+
+@app.schedule(schedule="* * * * * *", arg_name="myTimer", run_on_startup=False,
+              use_monitor=True) 
+def timer_trigger1(myTimer: func.TimerRequest) -> None:
+    if myTimer.past_due:
+        logging.info('The timer 1 is past due!')
+
+    logging.info('Python timer 1 trigger function executed.')
+
+
+@app.schedule(schedule="*/5 * * * * *", arg_name="myTimer", run_on_startup=False,
+              use_monitor=True) 
+def timer_trigger2(myTimer: func.TimerRequest) -> None:
+    if myTimer.past_due:
+        logging.info('The timer 2 is past due!')
+
+    logging.info('Python timer 2 trigger function executed.')
+```
+
 
 ### Reference:
 - Detailed guide on schedule triggers ([Azure Schedule Trigger Guide](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-timer?tabs=python-v2%2Cisolated-process%2Cnodejs-v4&pivots=programming-language-python)).
