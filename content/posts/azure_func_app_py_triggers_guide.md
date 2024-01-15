@@ -195,10 +195,34 @@ def test_function(myblob: func.InputStream):
                 f"Blob Size: {myblob.length} bytes")
 ```
 
+Please note it is not possible for the function app to listen to events in multiple storage containers. To do that, this is a potential workaround:
+
+```py
+import logging
+import azure.functions as func
+
+app = func.FunctionApp()
+
+def show_blob_details(blob_name, blob_length):
+   logging.info(f"Python blob trigger function processed blob \n"
+                f"Name: {blob_name}\n"
+                f"Blob Size: {blob_length} bytes")
+
+@app.blob_trigger(arg_name="myblob", path="container-a", connection="BLOB_CONNECTION_STRING")
+def test_function_a(myblob: func.InputStream):
+    show_blob_details(myblob.name, myblob.length)
+
+@app.blob_trigger(arg_name="myblob", path="container-b", connection="BLOB_CONNECTION_STRING")
+def test_function_b(myblob: func.InputStream):
+    show_blob_details(myblob.name, myblob.length)
+```
+
+
 ### Reference:
 - Blob Trigger Overview ([Azure Blob Trigger Documentation](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-trigger)).
 - Blob Storage Trigger Tutorial ([Azure Blob Storage Trigger Tutorial](https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/tutorial-azure-function?view=form-recog-3.0.0)).
 - Creating a Blob-Triggered Function in Azure Portal ([Azure Blob Triggered Function Tutorial](https://learn.microsoft.com/en-us/azure/azure-functions/functions-create-storage-blob-triggered-function)).
+- Blob trigger vs listenining to multiple containers ([see this](https://stackoverflow.com/questions/72711411/can-a-blob-trigger-function-use-multiple-sources-and-destination))
 
 > *Note:* 
 >- For blob event triggers, the metadata available is limited to `name, length, uri` (as per the [Azure Functions InputStream Documentation](https://learn.microsoft.com/en-us/python/api/azure-functions/azure.functions.inputstream?view=azure-python)).
